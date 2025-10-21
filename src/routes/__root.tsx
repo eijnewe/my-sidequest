@@ -10,6 +10,7 @@ import {
     NavigationMenuTrigger,
     NavigationMenuViewport,
 } from '@/components/ui/navigation-menu'
+import { SearchBar } from "@/components/searchBar";
 
 export const Route = createRootRoute({
     component: RootComponent,
@@ -23,6 +24,7 @@ function RootComponent() {
                 <Link to="/">home</Link>
                 <Link to="/about">about</Link>
             </div>
+<SearchBar></SearchBar>
             <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem>
